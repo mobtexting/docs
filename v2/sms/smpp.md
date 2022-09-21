@@ -187,16 +187,11 @@ Status and error code which can be returned by Messaging Platform.
 | 400  | SERIES-BLOCK          | Series has been temporary / permanently blocked.    |
 | 401  | NO-CREDITS            | Credit exhausted.                                   |
 | 402  | NO-ACCOUNT            | Invalid account.                                    |
-| 403  | SERVER-ERR            | Unknown Error                                       |
 | 404  | INV-NUMBER            | Invalid destination number                          |
 | 405  | SERVER-ERR            | ESME client error                                   |
 | 406  | SERVER-ERR            | ESME client error                                   |
 | 407  | SPAM                  | Sent illigal content                                |
 | 408  | DNDNUMB               | Number registered in dnd database.                  |
-| 430  | SERVER-ERR            | Unknown Error                                       |
-| 431  | SERVER-ERR            | Unknown Error                                       |
-| 432  | SERVER-ERR            | Unknown Error                                       |
-| 433  | SERVER-ERR            | Unknown Error                                       |
 | 450  | BLACKLST              | Number blocklisted to receive messages              |
 | 451  | SNDR-NOT-ALLOTED      | Sender Id been blocked                              |
 | 452  | TEMPLATE-NOT-FOUND    | No matching templates                               |
@@ -209,7 +204,6 @@ Status and error code which can be returned by Messaging Platform.
 | 459  | NOTALLOWED            | Country not allowed to send sms                     |
 | 460  | DUPLICATE             | Same content sent                                   |
 | 461  | UNDELIV               | Unknown Error                                       |
-| 462  | FAILED                | Unknown Error                                       |
 | 778  | REJ-MULTIPART         | All message parts are not delivrd to handset        |
 | 777  | DLT-REJECTED          | Invalid Sender-Id or Invalid Template               |
 | 780  | DLT-INV-TMID          | Invalid DLT telemarketer Id                         |
