@@ -208,7 +208,7 @@ Status and error code which can be returned by Messaging Platform.
 | 777  | DLT-REJECTED          | Invalid Sender-Id or Invalid Template               |
 | 780  | DLT-INV-TMID          | Invalid DLT telemarketer Id                         |
 | 781  | DLT-INV-ENTITY        | Invalid Entity DLT Id                               |
-| 782  | DLT-INV-TM-ID         | Invalid DLT Template Id                             |
+| 782  | DLT-INV-TEMPLATE-ID   | Invalid DLT Template Id                             |
 | 783  | DLT-TM-VAR-EXECEED    | Template variable exceeded 30 chars                 |
 | 784  | DLT-ENTITY-NOT-FOUND  | Entity Id not found                                 |
 | 785  | DLT-TM-BLACKLST       | Template Id blacklisted                             |
