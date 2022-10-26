@@ -11,27 +11,29 @@ Edit sender-ids using post method under your account
 #### PUT
 
 ```
-{endpoint}sms/sender/edit/{id}
+{endpoint}sms/senders/{id}
 ```
 
 #### PARAMETERS
 
-| Name         | optional | Descriptions                                                  |
-| ------------ | -------- | ------------------------------------------------------------- |
-| country_code | No       | For which country this sender belongs to. 2 letters           |
-| entity_id    | Mixed    | Input the entity id (required for india)                      |
-| entity_name  | Mixed    | Company name whom this sender belongs to (required for india) |
+| Name         | optional | Descriptions                                                                                 |
+| ------------ | -------- | -------------------------------------------------------------------------------------------- |
+| country_code | No       | For which country this sender belongs to. 2 letters                                          |
+| entity_id    | Mixed    | Input the entity id (required for india)                                                     |
+| entity_name  | Mixed    | Company name whom this sender belongs to (required for india)                                |
+| service      | No       | The short code of the service name. ex: (MKT) [full list](/docs/{version}/#content-products) |
 
 #### Example Request
 
 ```
 curl -X PUT \
-  {endpoint}sms/sender/edit/93af9991-f1cc-4b36-abd5-xxxxxx \
+  {endpoint}sms/senders/93af9991-f1cc-4b36-abd5-xxxxxx \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer 5b02112fb7xxxxxxxxx' \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -d entity_name=xxxxx \
   -d entity_id=xxxxx \
+  -d service=MKT \
   -d country_code=IN
 ```
 
@@ -40,7 +42,7 @@ curl -X PUT \
 ```json
 {
   "status": "OK",
-  "message": "Sender updated successfully",
-  "id": 1
+  "code": 200,
+  "message": "Sender updated successfully"
 }
 ```

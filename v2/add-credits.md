@@ -18,11 +18,11 @@ You can add the credits to your customers using this api.
 
 #### MANDATORY PARAMETERS
 
-| Name     | Descriptions                                      |
-| -------- | ------------------------------------------------- |
-| username | Username of account you want to add credits       |
-| credits  | Number of credits                                 |
-| service  | Service in which need to add credits. Ex: P, T, S |
+| Name     | Descriptions                                |
+| -------- | ------------------------------------------- |
+| username | Username of account you want to add credits |
+| credits  | Number of credits                           |
+| service  | Service in which need to add credits.       |
 
 #### OPTIONAL PARAMETERS
 
@@ -39,7 +39,7 @@ You can add the credits to your customers using this api.
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer 38e896f55670311982434e929559bxxxx' \
   -H 'content-type: application/x-www-form-urlencoded' \
-  -d 'service=T&username=laxmanxxx&credits=100&notes=test%20from%20api'
+  -d 'service=MKT&username=laxmanxxx&credits=100&notes=test%20from%20api'
 ```
 
 #### Example Response

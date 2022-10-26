@@ -27,7 +27,7 @@ All params in send sms will support in JSON also.
     "flash": 0,
     "sender": "TXTSMS",
     "message": "global message",
-    "service": "T",
+    "service": "MKT",
     "webhook_id": "1234a-3444-34444-XXxx",
     "time": "",
     "entity_id": "222343XXXXXX",
@@ -50,12 +50,12 @@ All params in send sms will support in JSON also.
 
 #### MANDATORY PARAMETERS
 
-| Name    | Descriptions                                                                            |
-| ------- | --------------------------------------------------------------------------------------- |
-| to      | Phone number to send with country prefix. (multiple numbers can be separated by comma.) |
-| message | The content of the SMS                                                                  |
-| sender  | The registered and approved Sender-id                                                   |
-| service | Determines whether the SMS to be sent is Transactional, Promotional or other.           |
+| Name    | Descriptions                                                                                                                                |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| to      | Phone number to send with country prefix. (multiple numbers can be separated by comma.)                                                     |
+| message | The content of the SMS                                                                                                                      |
+| sender  | The registered and approved Sender-id                                                                                                       |
+| service | The short code of the service name. ex: (MKT) [full list](/docs/{version}/#content-products) [full list](/docs/{version}/#content-products) |
 
 #### OPTIONAL PARAMETERS
 
@@ -84,7 +84,7 @@ curl --request POST \
         "flash": 0,
         "sender": "TXTSMS",
         "message": "global message",
-        "service": "T",
+        "service": "MKT",
         "webhook_id": "1234-aabn13-23xxxxx",
         "time": "",
         "entity_id": "222343XXXXXX",
@@ -156,7 +156,7 @@ curl --request POST \
         "flash": 0,
         "sender": "TXTSMS",
         "message": "global message",
-        "service": "T",
+        "service": "MKT",
         "dlr_url": "http://www.domainname.com/dlr?status={status}",
         "time": "",
         "entity_id": "222343XXXXXX",

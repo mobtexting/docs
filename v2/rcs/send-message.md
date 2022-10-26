@@ -278,7 +278,7 @@ curl -X POST \
 					"payload": {
 						"longitude": 12.912985,
             "latitude": 77.599505,
-            "name": "MOBtexting Pvt Ltd",
+            "name": "Company Pvt Ltd",
             "address": "JP Nagar, Mini forest"
 					}
 				},

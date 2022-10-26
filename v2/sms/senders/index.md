@@ -70,3 +70,11 @@ Kindly replace the token with your respective access_token and other params.
   }
 }
 ```
+
+#### Status Description 
+
+| status value | description |
+| ------------ | ------------|
+| 0            | Pending     |
+| 1            | Approved    |
+| 2            | Rejected    |

@@ -16,8 +16,8 @@ View all templates created under your account
 
 #### Filters
 
-| name           | Optional | value                 |
-| -------------- | -------- | --------------------- |
+| name         | Optional | value                 |
+| ------------ | -------- | --------------------- |
 | filter[name] | Yes      | Name of the template. |
 
 #### Example Request

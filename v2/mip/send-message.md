@@ -1,4 +1,4 @@
-# MOBtexting Ip (mip) Messaging Service
+# Ip (mip) Messaging Service
 
 ## Channel Info
 

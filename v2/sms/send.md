@@ -6,8 +6,6 @@ The SMS API supports the following:
 
 `POST` - When you send a POST request with the end user's phone number to the messaging subresource, We sends the SMS message you specify.
 
-`GET` - You can retrieve the results of the message you sent using the GET method. You do this by sending a GET request containing the reference id for the message you sent. We return a response message in the form of a _**JSON**_ object in the entity body.
-
 Country code is mandatory to be included in the `to` paramenter for global messaging.
 
 Before you start sending SMS through this API, please test whether your content is matching a template which has been pre approved. Otherwise, the SMS will end up being rejected.
@@ -28,12 +26,12 @@ Before you start sending SMS through this API, please test whether your content 
 
 #### MANDATORY PARAMETERS
 
-| Name    | Descriptions                                                                  |
-| ------- | ----------------------------------------------------------------------------- |
-| to      | Phone number to send with country prefix.                                     |
-| message | The content of the SMS                                                        |
-| sender  | The registered and approved Sender-id                                         |
-| service | Determines whether the SMS to be sent is Transactional, Promotional or other. |
+| Name    | Descriptions                                                                                 |
+| ------- | -------------------------------------------------------------------------------------------- |
+| to      | Phone number to send with country prefix.                                                    |
+| message | The content of the SMS                                                                       |
+| sender  | The registered and approved Sender-id                                                        |
+| service | The short code of the service name. ex: (MKT) [full list](/docs/{version}/#content-products) |
 
 #### OPTIONAL PARAMETERS
 
@@ -57,7 +55,7 @@ curl -X POST '{endpoint}sms/send' \
     -H 'Content-Type: application/x-www-form-urlencoded' \
     -d 'sender=TXTSMS' \
     -d 'to=917026267xxx' \
-    -d 'service=T' \
+    -d 'service=MKT' \
     -d 'message=Your OTP is 123456'
 ```
 

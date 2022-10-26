@@ -6,9 +6,7 @@ The SMS API supports the following:
 
 `POST` - When you send a POST request with file containing mobile numbers of customers, We send SMS message you specify to all the numbers exist in file.
 
-Country code is mandatory to be included in the `to` paramenter for global messaging.
-
-Before you start sending SMS through this API, please test whether your content is matching a template which has been pre approved. Otherwise, the SMS will end up being rejected.
+> Country code is mandatory to be included in the `to` paramenter for global messaging.
 
 ## Send SMS
 
@@ -24,8 +22,7 @@ Before you start sending SMS through this API, please test whether your content 
 {endpoint}sms/bulk
 ```
 
-You can send sms using `POST` method only as uploading file will supporting in
-`POST`.
+You can send sms using `POST` method only as uploading file will supporting in `POST`.
 
 #### MANDATORY PARAMETERS
 
@@ -33,7 +30,7 @@ You can send sms using `POST` method only as uploading file will supporting in
 | ------- | ----------------------------------------------------------------------------------------------------------- |
 | message | The content of the SMS                                                                                      |
 | sender  | The registered and approved Sender-id                                                                       |
-| service | Determines whether the SMS to be sent is Transactional, Promotional or other.                               |
+| service | The short code of the service name. ex: (MKT) [full list](/docs/{version}/#content-products)                |
 | file    | Request body form-data you need to select file parameter and need to upload file containing mobile numbers. |
 
 #### OPTIONAL PARAMETERS
@@ -60,7 +57,7 @@ curl -X POST \
     -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
     -d 'sender=TXTSMS' \
     -d 'to=917026267xxx' \
-    -d 'service=T' \
+    -d 'service=MKT' \
     -d 'message=Your OTP is 123456'
     -F file=@filename.txt
 ```

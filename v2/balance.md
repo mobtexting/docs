@@ -30,14 +30,14 @@ You can get the account balance of each service using this api.
   "message": "OK",
   "data": [
     {
-      "service": "P",
+      "service": "MKT",
       "name": "Promotional SMS",
       "postpaid": 0,
       "credits": 69,
       "charges": 1
     },
     {
-      "service": "T",
+      "service": "A2P",
       "name": "Transactional SMS",
       "postpaid": 0,
       "credits": 109,
