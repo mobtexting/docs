@@ -16,8 +16,8 @@ View all Webhooks created under your account
 
 #### PARAMETERS
 
-| name         | optional | value                  |
-| ------------ | -------- | ---------------------- |
+| name         | optional | value               |
+| ------------ | -------- | ------------------- |
 | filter[name] | Yes      | name of the webhok. |
 
 #### Example Request
@@ -35,36 +35,55 @@ Kindly replace the token with your respective access_token.
 
 ```json
 {
-  "rows": {
+  "status": "OK",
+  "code": 200,
+  "message": "Created successfully",
+  "data": [
+    {
+      "id": "180ebbb5-9b6f-4c51-a98a-**********",
+      "name": "name of webhook",
+      "uri": "https://example.com/",
+      "secret": "*****",
+      "verification_code": "*****",
+      "status": "1",
+      "created_at": "2022-10-19T07:40:13.000000Z",
+      "updated_at": "2022-10-19T12:11:06.000000Z"
+    }
+  ],
+  "links": {
+    "first": "{endpoint}/developer/webhooks?page=1",
+    "last": "{endpoint}/developer/webhooks?page=1",
+    "prev": null,
+    "next": null
+  },
+  "meta": {
     "current_page": 1,
-    "data": [
-      {
-        "id": "02238e36-a4c0-4231-b2be-87f96303133a",
-        "name": "webhoook name",
-        "uri": "https://demo.mobtext.info/api/messageupdate",
-        "secret": null,
-        "verification_code": null,
-        "payload": null,
-        "status": 1,
-        "created_at": "2021-05-04 17:46:58",
-        "updated_at": "2021-05-04 17:46:58",
-        "serial": 1
-      }
-    ],
-    "first_page_url": "{endpoint}developer/webhooks?page=1",
     "from": 1,
     "last_page": 1,
-    "last_page_url": "{endpoint}/developer/webhooks?page=1",
-    "next_page_url": null,
+    "links": [
+      {
+        "url": null,
+        "label": "&laquo; Previous",
+        "active": false
+      },
+      {
+        "url": "{endpoint}/developer/webhooks?page=1",
+        "label": "1",
+        "active": true
+      },
+      {
+        "url": null,
+        "label": "Next &raquo;",
+        "active": false
+      }
+    ],
     "path": "{endpoint}/developer/webhooks",
-    "per_page": 25,
-    "prev_page_url": null,
-    "to": 1,
-    "total": 1
+    "per_page": 15,
+    "to": 10,
+    "total": 10
   }
 }
 ```
-
 
 ## Create Webhook
 
@@ -84,13 +103,13 @@ Create a Webhook using post method under your account
 
 #### PARAMETERS
 
-| Name         | optional | Descriptions                                                        |
-| ------------ | -------- | --------------------------------------------------------------------|
-| name         | No       | Enter the name of the webhook that you want to create.              |
-| uri | No       | The URL of the server that will receive the webhook POST request.            |
-| status    | yes    | Enter 1 for active or 0 for inactive.                                    |
-| secret  | yes    | Enter the secret that You received as the secret.                          |
-| token  | yes    | Verification token for the initial webhook verification challenge. EX:123456**|
+| Name   | optional | Descriptions                                                                     |
+| ------ | -------- | -------------------------------------------------------------------------------- |
+| name   | No       | Enter the name of the webhook that you want to create.                           |
+| uri    | No       | The URL of the server that will receive the webhook POST request.                |
+| status | yes      | Enter 1 for active or 0 for inactive.                                            |
+| secret | yes      | Enter the secret that You received as the secret.                                |
+| token  | yes      | Verification token for the initial webhook verification challenge. EX:123456\*\* |
 
 #### Example Request
 
@@ -107,25 +126,23 @@ Create a Webhook using post method under your account
   -d status=1 \
 ```
 
-
-
 #### Example Response
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Created successfully",
-    "data": {
-        "id": "180ebbb5-9b6f-4c51-a98a-**********",
-        "name": "name of webhook",
-        "uri": "https://example.com/",
-        "secret": "*****",
-        "verification_code": "*****",
-        "status": "1",
-        "created_at": "2022-10-19T07:40:13.000000Z",
-        "updated_at": "2022-10-19T12:11:06.000000Z"
-    }
+  "status": "OK",
+  "code": 200,
+  "message": "Created successfully",
+  "data": {
+    "id": "180ebbb5-9b6f-4c51-a98a-**********",
+    "name": "name of webhook",
+    "uri": "https://example.com/",
+    "secret": "*****",
+    "verification_code": "*****",
+    "status": "1",
+    "created_at": "2022-10-19T07:40:13.000000Z",
+    "updated_at": "2022-10-19T12:11:06.000000Z"
+  }
 }
 ```
 
@@ -147,12 +164,12 @@ Edit a Webhook using put method under your account
 
 #### PARAMETERS
 
-| Name         | optional | Descriptions                                                  |
-| ------------ | -------- | ------------------------------------------------------------- |
-| name | No       | Enter the name of the webhook that you want to modify                 |
-| uri    | No    | The URL of the server that will receive the webhook POST request.      |
-| status    | yes    |Enter 1 for active or 0 for inactive.                               |
-| secret    | yes    | Enter the secret that You received as the secret.                  |
+| Name   | optional | Descriptions                                                      |
+| ------ | -------- | ----------------------------------------------------------------- |
+| name   | No       | Enter the name of the webhook that you want to modify             |
+| uri    | No       | The URL of the server that will receive the webhook POST request. |
+| status | yes      | Enter 1 for active or 0 for inactive.                             |
+| secret | yes      | Enter the secret that You received as the secret.                 |
 
 #### Example Request
 
@@ -170,19 +187,65 @@ curl -X PUT \
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Updated successfully",
-    "data": {
-        "id": "180ebbb5-9b6f-4c51-a98a-**********",
-        "name": "name of webhook",
-        "uri": "https://example.com/",
-        "secret": "*****",
-        "verification_code": "*****",
-        "status": "1",
-        "created_at": "2022-10-19T07:40:13.000000Z",
-        "updated_at": "2022-10-19T12:11:06.000000Z"
-    }
+  "status": "OK",
+  "code": 200,
+  "message": "Updated successfully",
+  "data": {
+    "id": "180ebbb5-9b6f-4c51-a98a-**********",
+    "name": "name of webhook",
+    "uri": "https://example.com/",
+    "secret": "*****",
+    "verification_code": "*****",
+    "status": "1",
+    "created_at": "2022-10-19T07:40:13.000000Z",
+    "updated_at": "2022-10-19T12:11:06.000000Z"
+  }
+}
+```
+
+## Show Webhook
+
+To show a Webhook using get method under your account
+
+#### API Endpoint
+
+```
+{domain}/api/{version}/
+```
+
+#### GET
+
+```
+{endpoint}developer/webhooks/{id}
+```
+
+Replace the {id} with the actual id of the webhook that you would like to see.
+
+#### Example Request
+
+```
+curl -X GET \
+  {endpoint}developer/webhooks/b7e42a8e-b6df-4a5e-ac42-xxxxxxxxxxxx \
+  -H 'Authorization: Bearer 5b02112fb7xxxxxxxxxxxxxxx' \
+```
+
+#### Example Response
+
+```json
+{
+  "status": "OK",
+  "code": 200,
+  "message": "OK",
+  "data": {
+    "id": "38b5abba-9fd4-4a53-b540-ccfe5c13****",
+    "name": "name of webhook",
+    "uri": "https://example.com/",
+    "secret": "***",
+    "verification_code": "***",
+    "status": 1,
+    "created_at": "2022-10-19T11:37:24.000000Z",
+    "updated_at": "2022-10-19T11:37:24.000000Z"
+  }
 }
 ```
 

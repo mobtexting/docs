@@ -35,6 +35,7 @@
   - [Create Template](/docs/{version}/sms/templates/create)
   - [Edit Template](/docs/{version}/sms/templates/edit)
   - [Delete Template](/docs/{version}/sms/templates/delete)
+  - [Pricing List](/docs/{version}/sms/pricing)
   <!-- [Service Usage](/docs/{version}/sms/usage) -->
 
 - SMPP
@@ -67,6 +68,7 @@
   - [Status Info](/docs/{version}/whatsapp/status)
   - [Webhook](/docs/{version}/whatsapp/webhooks)
   - [Pull DLR](/docs/{version}/whatsapp/pull-status)
+  - [Optout](/docs/{version}/whatsapp/optout)
 
 <!--
 - MIP
@@ -85,6 +87,7 @@
   - [Status Info](/docs/{version}/rcs/status)
   - [Webhook](/docs/{version}/rcs/webhooks)
   - [Pull DLR](/docs/{version}/rcs/pull-status)
+  - [Optout](/docs/{version}/rcs/optout)
 
 <!--
 - Link
