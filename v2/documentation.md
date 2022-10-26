@@ -35,7 +35,9 @@
   - [Create Template](/docs/{version}/sms/templates/create)
   - [Edit Template](/docs/{version}/sms/templates/edit)
   - [Delete Template](/docs/{version}/sms/templates/delete)
+  - [Pricing List](/docs/{version}/sms/pricing)
   <!-- [Service Usage](/docs/{version}/sms/usage) -->
+
 
 - SMPP
 
