@@ -42,6 +42,7 @@
   - [Show Template](/docs/{version}/sms/templates/show)
   - [Edit Template](/docs/{version}/sms/templates/edit)
   - [Delete Template](/docs/{version}/sms/templates/delete)
+  - [Unsubscribers](/docs/{version}/sms/unsubscribers)
   - [Pricing List](/docs/{version}/sms/pricing)
   <!-- [Service Usage](/docs/{version}/sms/usage) -->
 
