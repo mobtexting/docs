@@ -62,6 +62,7 @@
   - [Optout](/docs/{version}/whatsapp/optout)
   - [Pricing List](/docs/{version}/whatsapp/pricing)
   - [Templates](/docs/{version}/whatsapp/templates)
+  - [Unsubscribers](/docs/{version}/whatsapp/suppressions/unsubscribers)
 
 <!--
 - MIP
