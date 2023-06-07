@@ -115,15 +115,15 @@ curl -X POST\
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Contact added successfully",
-    "data": {
-        "id": "848c22a0-6969-455a-b5dc-xxxxxxxxxxxx",
-        "receiver": "9198xxxxxxxx",
-        "country": "IN",
-        "created_at": "2023-04-25T11:53:14.000000Z"
-    }
+  "status": "OK",
+  "code": 200,
+  "message": "Contact added successfully",
+  "data": {
+    "id": "848c22a0-6969-455a-b5dc-xxxxxxxxxxxx",
+    "receiver": "9198xxxxxxxx",
+    "country": "IN",
+    "created_at": "2023-04-25T11:53:14.000000Z"
+  }
 }
 ```
 
@@ -169,15 +169,15 @@ curl -X PUT \
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Contact updated successfully",
-    "data": {
-        "id": "848c22a0-6969-455a-b5dc-xxxxxxxxxxxx",
-        "receiver": "9198xxxxxxxx",
-        "country": "IN",
-        "created_at": "2023-04-25T07:29:40.000000Z"
-    }
+  "status": "OK",
+  "code": 200,
+  "message": "Contact updated successfully",
+  "data": {
+    "id": "848c22a0-6969-455a-b5dc-xxxxxxxxxxxx",
+    "receiver": "9198xxxxxxxx",
+    "country": "IN",
+    "created_at": "2023-04-25T07:29:40.000000Z"
+  }
 }
 ```
 
@@ -212,15 +212,15 @@ Kindly replace the token with your respective access_token .
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Unsubscribers data",
-    "data": {
-        "id": "0e3fdaad-2b46-4dcf-8b14-xxxxxxxxxxxx",
-        "mobile": "9198xxxxxxxx",
-        "country": "IN",
-        "created_at": "2023-04-25T05:18:18.000000Z"
-    }
+  "status": "OK",
+  "code": 200,
+  "message": "Unsubscribers data",
+  "data": {
+    "id": "0e3fdaad-2b46-4dcf-8b14-xxxxxxxxxxxx",
+    "mobile": "9198xxxxxxxx",
+    "country": "IN",
+    "created_at": "2023-04-25T05:18:18.000000Z"
+  }
 }
 ```
 
@@ -254,19 +254,17 @@ curl -X POST\
 #### PARAMETERS
 
 ```
-| Name     | Description                                              | Limits | Required |
-| -------- | -------------------------------------------------------- | ------ | -------- |
-| url      | Public url of the receiver file. Either HTTP/HTTPS link. | 100 MB | Yes      |
-| caption  | some text for reciver caption                            | N/A    | No       |
-| filename | Optout file name                                         | N/A    | No       |
+| Name     | Description                                                  | Limits | Required |
+| -------- | ------------------------------------------------------------ | ------ | -------- |
+| file     | Receiver number file. (Supported filetype: txt,csv,xls,xlsx) | 100 MB | Yes      |
 ```
 
 #### EXAMPLE RESPONSE
 
 ```json
 {
-    "status": "OK",
-    "message": "Contacts accepted for import"
+  "status": "OK",
+  "message": "Contacts accepted for import"
 }
 ```
 
@@ -301,10 +299,10 @@ curl -X DELETE \
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Deleted Successfully",
-    "data": []
+  "status": "OK",
+  "code": 200,
+  "message": "Deleted Successfully",
+  "data": []
 }
 ```
 
@@ -337,9 +335,9 @@ curl -X DELETE \
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Deleted Successfully",
-    "data": []
+  "status": "OK",
+  "code": 200,
+  "message": "Deleted Successfully",
+  "data": []
 }
 ```
