@@ -99,6 +99,7 @@
   - [Webhook](/docs/{version}/reach/webhook)
   - [Pricing List](/docs/{version}/voice/pricing)
   - [Unsubscribers](/docs/{version}/reach/suppressions/unsubscribers)
+  - [VoiceId List](/docs/{version}/voice/voices)
 
 - Link
 
