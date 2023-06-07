@@ -121,17 +121,17 @@ curl -X POST\
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Receiver added successfully",
-    "data": {
-        "id": "11",
-        "iso": "IN",
-        "receiver": "919876543210",
-        "type": "tag",
-        "value": "promo",
-        "created_at": "2023-04-11T12:50:17.000000Z"
-    }
+  "status": "OK",
+  "code": 200,
+  "message": "Receiver added successfully",
+  "data": {
+    "id": "11",
+    "iso": "IN",
+    "receiver": "919876543210",
+    "type": "tag",
+    "value": "promo",
+    "created_at": "2023-04-11T12:50:17.000000Z"
+  }
 }
 ```
 
@@ -181,17 +181,17 @@ curl -X PUT \
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Receiver update successfully",
-    "data": {
-        "id": "11",
-        "iso": "IN",
-        "receiver": "919876543210",
-        "type": "tag",
-        "value": "promo1",
-        "created_at": "2023-04-11T12:50:17.000000Z"
-    }
+  "status": "OK",
+  "code": 200,
+  "message": "Receiver update successfully",
+  "data": {
+    "id": "11",
+    "iso": "IN",
+    "receiver": "919876543210",
+    "type": "tag",
+    "value": "promo1",
+    "created_at": "2023-04-11T12:50:17.000000Z"
+  }
 }
 ```
 
@@ -226,17 +226,17 @@ Kindly replace the token with your respective access_token .
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Unsubscribers data",
-    "data": {
-        "id": "11",
-        "iso": "IN",
-        "receiver": "9198xxxxxxxx",
-        "type": "xxxxxxx",
-        "value": "xxxxxx",
-        "created_at": "2023-04-11T12:53:29.000000Z"
-    }
+  "status": "OK",
+  "code": 200,
+  "message": "Unsubscribers data",
+  "data": {
+    "id": "11",
+    "iso": "IN",
+    "receiver": "9198xxxxxxxx",
+    "type": "xxxxxxx",
+    "value": "xxxxxx",
+    "created_at": "2023-04-11T12:53:29.000000Z"
+  }
 }
 ```
 
@@ -270,19 +270,17 @@ curl -X POST\
 #### PARAMETERS
 
 ```
-| Name     | Description                                              | Limits | Required |
-| -------- | -------------------------------------------------------- | ------ | -------- |
-| url      | Public url of the receiver file. Either HTTP/HTTPS link. | 100 MB | Yes      |
-| caption  | some text for reciver caption                            | N/A    | No       |
-| filename | Receiver file name                                       | N/A    | No       |
+| Name     | Description                                                  | Limits | Required |
+| -------- | ------------------------------------------------------------ | ------ | -------- |
+| file     | Receiver number file. (Supported filetype: txt,csv,xls,xlsx) | 100 MB | Yes      |
 ```
 
 #### EXAMPLE RESPONSE
 
 ```json
 {
-    "status": "OK",
-    "message": "Receivers accepted for import"
+  "status": "OK",
+  "message": "Receivers accepted for import"
 }
 ```
 
@@ -317,10 +315,10 @@ curl -X DELETE \
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Deleted Successfully",
-    "data": []
+  "status": "OK",
+  "code": 200,
+  "message": "Deleted Successfully",
+  "data": []
 }
 ```
 
@@ -353,9 +351,9 @@ curl -X DELETE \
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Deleted Successfully",
-    "data": []
+  "status": "OK",
+  "code": 200,
+  "message": "Deleted Successfully",
+  "data": []
 }
 ```
