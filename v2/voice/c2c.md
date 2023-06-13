@@ -82,8 +82,8 @@ curl -X POST '{endpoint}voice/c2c' \
     "bridge":"91806828XXXX",
     "from":"918867135XXXX",
     "to":"flow:220",
-    "variable[Name]":"YourName",
-    "variable[otp]":"12344",
+    "variables[Name]":"YourName",
+    "variables[otp]":"12344",
     "record":"1"
 }'
 ```
