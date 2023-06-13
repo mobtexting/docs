@@ -71,40 +71,6 @@ curl -X POST '{endpoint}voice/c2c' \
 }
 ```
 
-#### Example C2C with to as Flow ID & Variables
-
-```
-curl -X POST '{endpoint}voice/c2c' \
-    -H 'Accept: application/json' \
-    -H 'Authorization: Bearer 38e896f55670311982434e929559bxxxx' \
-    -H 'Content-Type: application/json' \
-    -d '{
-    "bridge":"91806828XXXX",
-    "from":"918867135XXXX",
-    "to":"flow:220",
-    "variable[Name]":"YourName",
-    "variable[otp]":"12344",
-    "record":"1"
-}'
-```
-
-- Here `flow_id` `220` is the Ivr Journey ID created in Engage > Studio Section
-
-  The journey created should have a play widget with text to speech containing variables as follows:
-
-  `Hello {Name}, your otp for login is {otp}`
-
-  The above message contains two variables, this varaible values will replace from the API parameters when customer answers the click2call
-
-#### Example Response
-
-```json
-{
-  "status": 200,
-  "message": "Call initiated successfully"
-}
-```
-
 ## Callback URL with Webhook ID
 
 The WEBHOOK Push API sends the report of the Click2Call to the client’s URL in `POST` method.
