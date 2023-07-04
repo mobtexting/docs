@@ -23,12 +23,7 @@ List of product names and product codes
 @endforeach
 
 @endif
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 Note: Few elements in endpoint may change for service to service.
 

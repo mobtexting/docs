@@ -1,4 +1,4 @@
-## SMS Length Summary
+# SMS Length Summary
 
 #### Standard GSM Characters
 

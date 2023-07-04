@@ -1,12 +1,7 @@
-## Delete Template
+# Delete Template
 
 Delete template using delete method under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### DELETE
 
@@ -18,12 +13,7 @@ Replace the {id} with the actual id of the template that you would like to delet
 
 #### Example Request
 
-```
-curl -X DELETE \
-  '{endpoint}sms/templates/b23769e6-019f-48f4-aae9-ec00a5xxxxxx' \
-    -H 'Accept: application/json' \
-    -H 'Authorization: Bearer 5b02112fb7xxxxxxxxx'
-```
+#include "{version}/_samples/sms/templates/delete.md"
 
 #### Example Response
 

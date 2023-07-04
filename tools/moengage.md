@@ -16,7 +16,7 @@ To integrate Mobtexting as an SMS provider, perform the following steps:
 ```
 4. Give headers as following below.
 
-![alt text](/images/docimages/plugins/moengage/headers.png)
+![alt text](/images/docs/plugins/moengage/headers.png)
 
 Enter key and value pairs.
 | Key | value              |
@@ -27,7 +27,7 @@ Enter key and value pairs.
 
 5. Choose body type as form to pass send data as a key and value pairs.
 
-![alt text](/images/docimages/plugins/moengage/form.png)
+![alt text](/images/docs/plugins/moengage/form.png)
 
 | Key | value                      |
 ------------|-----------------------|
@@ -36,7 +36,7 @@ Enter key and value pairs.
 | message   | Moesms_message|
 | service   | T                    |
 
-![alt text](/images/docimages/plugins/moengage/headerparams.png)
+![alt text](/images/docs/plugins/moengage/headerparams.png)
 
 ## OPTIONAL PARAMETERS
 

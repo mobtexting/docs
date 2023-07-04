@@ -11,12 +11,7 @@ This is useful for:
 Create a new Verify object through the API to start the verification process of a recipient. We will take care of creating a token and making sure that the message gets delivered to the user's handset.
 
 ## Verify Request
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 
@@ -59,9 +54,10 @@ Create a new Verify object through the API to start the verification process of 
     }
   ],
   "payload": {
+    "length": 5,
+    "timeout": 60,
+    "token": "12345",
     "ip_address": "192.168.*.*",
-    "length": 6,
-    "timeout": 6
   }
 }
 ```
@@ -82,6 +78,7 @@ Create a new Verify object through the API to start the verification process of 
 | template | Custom Message for sending otp if message object not specifed in verify config. use {token} in content for replacing otp. |     |
 | wait     | Waiting time [in seconds] for triggering otp via alternate channel if first channel not successful. Default 30 seconds | |
 | language | Language in which TTS should play | |
+| token | Token length should be equal to defined length
 
 #### Example Response
 

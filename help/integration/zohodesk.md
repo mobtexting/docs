@@ -1,4 +1,4 @@
-## Zoho Desk Integration
+# Zoho Desk Integration
 
 Our platform allows you to seemingly integrate zoho Desk.
 Follow the steps below for integration guide:
@@ -9,7 +9,7 @@ In order to integrate zoho crm with our system a client app needs to be created 
 
 Visit this url: <https://accounts.zoho.com/developerconsole> to create client and choose server-based Applications.
 
-![alt text](/images/docimages/integrations/zohodesk1.png)
+![alt text](/images/docs/integrations/zohodesk1.png)
 
 Fill the following details when asked:
 
@@ -19,11 +19,11 @@ Client Domain: mydomain.com
 
 Authorized redirect URIs: {domain}/api/v2/integration/zoho/code
 
-![alt text](/images/docimages/integrations/zohodesk2.png)
+![alt text](/images/docs/integrations/zohodesk2.png)
 
 and click on create button
 
-![alt text](/images/docimages/integrations/zohodesk3.png)
+![alt text](/images/docs/integrations/zohodesk3.png)
 
 You'll receive `client_id` and `client_secret`.
 
@@ -54,8 +54,8 @@ You'll receive `refresh_token`.
 
 ### 4. Setting Flow in MOBtexting
 
-![alt text](/images/docimages/integrations/zohodesk4.png)
+![alt text](/images/docs/integrations/zohodesk4.png)
 
 Fill the details you obtained in previous steps and click save.
 
-![alt text](/images/docimages/integrations/zohodesk5.png)
+![alt text](/images/docs/integrations/zohodesk5.png)

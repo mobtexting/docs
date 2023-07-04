@@ -1,4 +1,4 @@
-## View Coverage list of all enabled countries
+# View Coverage list of all enabled countries
 
 View Coverage list of all enabled countries under your account
 

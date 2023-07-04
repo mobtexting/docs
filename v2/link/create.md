@@ -1,12 +1,7 @@
-## Create Smart Link
+# Create Smart Link
 
 Convert long url into short and smart url.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 

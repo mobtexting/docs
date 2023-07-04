@@ -21,12 +21,7 @@ Output Message:
 ```Dear Demo, Thanks for regisitering with us. Your details as follows demoxxxx@gmail.com, 9189XXXXXXXX.```
 
 ## Send Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 

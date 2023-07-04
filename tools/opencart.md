@@ -18,13 +18,13 @@ When an order is placed, shipped or status changed in opencart you can confirm w
 - Download the opencart_plugin, and place all the sub folders from opencart folder in the root-> upload folder
 - Log in as an administrator and navigate to the Extension->module page.
 
-![alt text](/images/docimages/opencart1.png)
+![alt text](/images/docs/opencart1.png)
 
 - Select Install against our SMS module
 - Once install select Edit against our SMS module.
 - Under API information tab, enter the sender ID and token details.
 
-![alt text](/images/docimages/opencart2.png)
+![alt text](/images/docs/opencart2.png)
 
 - Under New orders tab, draft a message that needs to be sent to the customer when a new order is placed. You can customize your SMS using variable parameters within @{{1}}
 - Under Orders Status tab, draft a messages that needs to be sent to the customer on each status change. You can customize your SMS using variable parameters within @{{2}}

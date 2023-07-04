@@ -1,11 +1,6 @@
-## Delete Smart Link
+# Delete Smart Link
 
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### DELETE
 

@@ -1,12 +1,7 @@
-## View One Smart Links
+# View One Smart Links
 
 View single smart link created under your account.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 

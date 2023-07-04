@@ -2,7 +2,7 @@
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/{collection})
 @endif
 
-- Introduction
+- [Introduction](#)
 
   - [Authentication](/docs/{version})
   - [Rate Limits](/docs/{version}#content-rate-limits)
@@ -15,7 +15,7 @@
   - [Adding Credits](/docs/{version}/account/add-credits)
 -->
 
-- Messaging
+- [Messaging](#)
 
   - [Introduction](/docs/v2/sms)
   - [SMS Length Summary](/docs/v2/sms/length-summary)
@@ -37,19 +37,19 @@
   - [Pricing List](/docs/v2/sms/pricing)
   <!-- [Service Usage](/docs/v2/sms/usage) -->
 
-- SMPP
+- [SMPP](#)
 
   - [Gateway](/docs/v2/sms/smpp)
   - [Error Codes](/docs/v2/sms/smpp#content-delivery-reports)
 
-- Verify
+- [Verify](#)
 
   - [Introduction](/docs/v2/verify)
   - [Check](/docs/v2/verify/check)
   - [Search](/docs/v2/verify/search)
   - [Cancel](/docs/v2/verify/cancel)
 
-- Engage (Voice)
+- [Engage (Voice)](#)
 
   - [Introduction](/docs/v2/voice)
   - [Click2Call/Number Masking](/docs/v2/voice/c2c)
@@ -62,7 +62,7 @@
   - [Webhook](/docs/v2/reach/webhook)
   - [Pricing List](/docs/v2/voice/pricing)
 
-- Whatsapp
+- [Whatsapp](#)
 
   - [Introduction](/docs/{version}/whatsapp)
   - [Send a message](/docs/{version}/whatsapp/send-message)
@@ -83,7 +83,7 @@
   - [Pull DLR](/docs/v2/mip/pull-status)
 -->
 
-- RCS
+- [RCS](#)
 
   - [Introduction](/docs/v2/rcs)
   - [Send Notification](/docs/v2/rcs/send-message)
@@ -93,7 +93,7 @@
   - [Optout](/docs/v2/rcs/optout)
   - [Pricing List](/docs/v2/rcs/pricing)
 
-- Link
+- [Link](#)
 
   - [View Links](/docs/v2/link)
   - [Create Link](/docs/v2/link/create)
@@ -109,7 +109,7 @@
   - [Verify](/docs/v2/lookup/verify)
     -->
 
-- Developers
+- [Developers](#)
 
   - [Webhooks](/docs/v2/webhook)
   - [Subscriptions](/docs/v2/subscriptions)

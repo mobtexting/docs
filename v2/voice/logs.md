@@ -1,12 +1,7 @@
 # Call Logs Report
 
 This Voice API supports the following:
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 
@@ -79,12 +74,7 @@ curl -X GET \
 ```
 
 # Recordings Report
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 

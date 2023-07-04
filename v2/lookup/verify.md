@@ -1,12 +1,7 @@
-## Verify HLR of mobile numbers
+# Verify HLR of mobile numbers
 
 Verify HLR of mubile numbers using post method under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 

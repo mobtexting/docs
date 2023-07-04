@@ -26,7 +26,7 @@ Using WP SMS you can enjoy as many features as you can
 * Please specify our name in the gateway name.
 * Please select all the details requested by them as in below screenshot.
 
-![alt text](/images/docimages/wordpress1.png)
+![alt text](/images/docs/wordpress1.png)
 
 #### Links for further reference
  

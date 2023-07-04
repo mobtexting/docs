@@ -1,12 +1,7 @@
-## View Template Blocklists
+# View Template Blocklists
 
 View all Blocklists
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 
@@ -78,12 +73,7 @@ Kindly replace the token with your respective access_token and other params.
 ## Create Block Template
 
 Create block template using POST method.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 
@@ -130,12 +120,7 @@ curl -X POST\
 ## Edit Block Template
 
 Edit block template using put method.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### PUT
 
@@ -185,12 +170,7 @@ curl -X PUT \
 ## View Block Templates
 
 View one created block template
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 
@@ -227,12 +207,7 @@ Kindly replace the token with your respective access_token .
 ## Import Block Templates
 
 Import block templates by uploading a file
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 
@@ -271,12 +246,7 @@ curl -X POST\
 ## Delete Block Template
 
 Delete block template using delete method
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### DELETE
 
@@ -309,12 +279,7 @@ curl -X DELETE \
 ## Cleanup Templates
 
 Delete all templates at once
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 

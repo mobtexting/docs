@@ -4,7 +4,7 @@
 To integrate with Clevertap as an SMS provider, perform the following steps:
 1. In the CleverTap dashboard, navigate to Settings > Engage > Channels > SMS.
 2. Click + Add Provider.
-![alt text](/images/docimages/plugins/clevertap/addprovider.png)
+![alt text](/images/docs/plugins/clevertap/addprovider.png)
 3. Under Provider, select Other (Generic).
 4. Select POST method and give following api as a provider end point  
 ```
@@ -14,7 +14,7 @@ To integrate with Clevertap as an SMS provider, perform the following steps:
 
 6. Select Headers to pass along any HTTP headers which will be added to the HTTP request sent to the API endpoint.
 
-![alt text](/images/docimages/plugins/clevertap/headers.png)
+![alt text](/images/docs/plugins/clevertap/headers.png)
 
 Enter key and value pairs.
 | Key | value              |
@@ -24,7 +24,7 @@ Enter key and value pairs.
 | Content-Type   | application/x-www-form-urlencoded    |
 
 7. Select Parameters and choose x-www-form-urlencoded to pass key and value pairs.
-![alt text](/images/docimages/plugins/clevertap/parameters.png)
+![alt text](/images/docs/plugins/clevertap/parameters.png)
 
 | Key | value                      |Descriptions|
 ------------|-----------------------|-------------|
@@ -56,7 +56,7 @@ Select POST method and give following api as a provider end point.
 {domain}/api/v2/sms/clevertap/json
 ```
 
-![alt text](/images/docimages/plugins/clevertap/headers.png)
+![alt text](/images/docs/plugins/clevertap/headers.png)
 
 Select Headers to pass along any HTTP headers which will be added to the HTTP request sent to the API endpoint.
 

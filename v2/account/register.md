@@ -1,12 +1,7 @@
-## User Registration Api
+# User Registration Api
 
 Registration api will support only `POST` method.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 

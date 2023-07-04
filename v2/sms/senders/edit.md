@@ -1,12 +1,7 @@
-## Edit Sender-ids
+# Edit Sender-ids
 
 Edit sender-ids using put method under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### PUT
 
@@ -24,22 +19,7 @@ Edit sender-ids using put method under your account
 | service      | No       | The short code of the service name. ex: (MKT) [full list](/docs/{version}/#content-products) |
 
 #### Example Request
-
-```
-curl -X PUT \
-  '{endpoint}sms/senders/ff467e28-7170-4a72-952e-c999cxxxxxx' \
-  -H 'Accept: application/json' \
-  -H 'Authorization: Bearer 5b02112fb7xxxxxxxxx' \
-  -H 'Content-Type: application/json' \
-  -d '{
-    "entity_name":"xxxxx",
-    "entity_id":"xxxxx",
-    "service":"MKT",
-    "country_code":"IN"
-}'
-    
-```
-
+#include "{version}/_samples/sms/senders/edit.md"
 #### Example Response
 
 ```json

@@ -9,12 +9,7 @@ The SMS API supports the following:
 > Country code is mandatory to be included in the `to` paramenter for global messaging.
 
 ## Send SMS
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 

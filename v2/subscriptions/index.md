@@ -1,12 +1,7 @@
-## View Subscriptions List
+# View Subscriptions List
 
 View all Subscriptions created under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 
@@ -88,12 +83,7 @@ Kindly replace the token with your respective access_token.
 ## Create Subscription
 
 Create a Subscription using post method under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 
@@ -144,12 +134,7 @@ Create a Subscription using post method under your account
 ## Show Subscription
 
 To show a Subscription using get method under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 

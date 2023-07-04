@@ -1,12 +1,7 @@
-## View VMN Logs
+# View VMN Logs
 
 Lists all message of VMN numbers of your account.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 

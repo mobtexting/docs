@@ -1,12 +1,7 @@
 # Create Sound File
 
 This Voice API supports the following:
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 

@@ -1,4 +1,4 @@
-## Smart Delivery
+# Smart Delivery
 
 Smart delivery helps to increase the success rate of delivery, minimize delivery failures and credits lost.
 

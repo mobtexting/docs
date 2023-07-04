@@ -1,4 +1,4 @@
-## Whatsapp Status Info
+# Whatsapp Status Info
 
 #### Description of Status:
 

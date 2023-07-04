@@ -1,12 +1,7 @@
-## Create Templates
+# Create Templates
 
 Create templates using post method under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 
@@ -34,20 +29,7 @@ Create templates using post method under your account
 | SE            | Service Explicit |
 
 #### Example Request
-
-```
-curl -X POST \
-  '{endpoint}sms/templates' \
-    -H 'Accept: application/json' \
-    -H 'Authorization: Bearer 5b02112fb7xxxxxxxxx'
-    -H 'Content-Type: application/json' \
-    -d '{
-    "sender":"TXTsms",
-    "name":"test1",
-    "body":"testing sms 1"
-}'
-
-```
+#include "{version}/_samples/sms/templates/create.md"
 
 #### Example Response
 

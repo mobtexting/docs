@@ -72,12 +72,7 @@
 #### HTTP Methods
 
 It will support only `POST` requests.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 ## Sending Text Message
 
@@ -87,27 +82,7 @@ It will support only `POST` requests.
 
 #### Example Request With Text Message
 
-```
-curl -X POST \
-  '{endpoint}sms/message/send' \
-  -H 'authorization: Bearer d9e1cac3812186b353c5022xxxxx' \
-  -H 'content-type: application/json' \
-  -d '{
-	"channels": [{
-		"name": "sms",
-		"from": "SENDER"
-	}],
-	"recipient": {
-		"to": "91XXXXXX"
-	},
-	"message": {
-        "type": "text",
-		"payload": {
-			"text": "This is a simple text message from sms channel"
-		}
-	}
-}'
-```
+#include "{version}/_samples/sms/send.md"
 
 #### PARAMETERS
 
@@ -118,12 +93,7 @@ curl -X POST \
 | text    | Message Content you want to send            | Max 4096 Characters | Yes      |
 
 ## Sending Template Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 ```
 {endpoint}sms/message/send

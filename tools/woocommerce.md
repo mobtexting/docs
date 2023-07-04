@@ -38,7 +38,7 @@ Using WooCommerce SMS you can enjoy as many features you can
 *  Set up plugin on WooCommerce -> SMS Notifications or through Settings button .
 *  Ready, now you can enjoy it !!!
 
-![alt text](/images/docimages/woocommerce.png)
+![alt text](/images/docs/woocommerce.png)
 
 #### Links for further reference
  

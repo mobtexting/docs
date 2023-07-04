@@ -1,12 +1,7 @@
-## View Account Usage Report
+# View Account Usage Report
 
 It will display account usage report
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 

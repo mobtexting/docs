@@ -4,12 +4,7 @@ Verify a sent verification token. Can only be done once for each token.
 
 - Send the verification code that your user supplied, with the corresponding `id` from the Verify request.
 - Check the `status` of the response to determine if the code the user supplied matches the one sent by {app}.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 

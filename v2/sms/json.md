@@ -1,10 +1,5 @@
 # Send SMS Using JSON object
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 

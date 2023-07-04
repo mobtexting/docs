@@ -1,4 +1,4 @@
-## Webhooks
+# Webhooks
 
 Webhooks are user-defined HTTP callbacks that are triggered by specific events. Whenever that trigger event occurs, the RCS API client sees the event, collects the data, and immediately sends a notification (HTTP request) to the Webhook URL specified in the application settings updating the status of sent messages or indicating when you receive a message.
 

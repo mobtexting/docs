@@ -1,12 +1,7 @@
-## Delete Sender-id
+# Delete Sender-id
 
 Delete sender-id using delete method under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### DELETE
 
@@ -17,13 +12,7 @@ Delete sender-id using delete method under your account
 Replace the {id} with the actual id of the sender that you would like to delete.
 
 #### Example Request
-
-```
-curl -X DELETE \
-  '{endpoint}sms/senders/ff467e28-7170-4a72-952e-c999cxxxxxx' \
-  -H 'Authorization: Bearer 5b02112fb7xxxxxxxxxxxxxxx' \
-```
-
+#include "{version}/_samples/sms/senders/delete.md"
 #### Example Response
 
 ```json

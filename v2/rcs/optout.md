@@ -1,13 +1,8 @@
-## OPTOUT
+# OPTOUT
 
 RCS campaigns are targeted to those customers who are registered subscribers to your RCS
 services. You can block the customer's number using our optout feature. Once the customer's number is blocked, meanwhile if you try to trigger RCS to the customer's number then our system will automatically reject the RCS triggered and the customer will not recieve the RCS.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 
@@ -54,12 +49,7 @@ On triggering the above API the specified numbers will be added to your optout l
 ## Delete Number from optout list
 
 Delete number using delete method under your optout list
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### DELETE
 

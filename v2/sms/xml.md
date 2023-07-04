@@ -1,10 +1,5 @@
 # Send SMS Using XML object
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 

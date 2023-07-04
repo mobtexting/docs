@@ -55,12 +55,7 @@
 #### HTTP Methods
 
 It will support only `POST` requests.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 ## Sending Text Message
 
@@ -101,12 +96,7 @@ curl -X POST \
 | text    | Message Content you want to send            | Max 4096 Characters | Yes      |
 
 ## Sending Template Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 ```
 {endpoint}whatsapp/message/send
@@ -314,12 +304,7 @@ curl -X POST \
 | ttl         | Time to live of the template message. If the receiver has not opened the template message before the time to live expires, the message will be deleted. Default 30 Days. Need to specify in Seconds | Can be more than 1 day i.e 86400 sec                                  | No                                                     |
 
 ## Send Image Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 We can send Images as attachment using below API. The maximum image size is limited to 64 MB.
 
@@ -364,12 +349,7 @@ curl -X POST \
 | pixels   | vertically crops images with the 1:91:1 aspect ratio: 800×418 pixels. To communicate effectively, design the image such that the crux information is at the center of the image. | YES    | YES      |
 
 ## Send Document Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 We can send Document which is having valid MIME-type as attachment using below API. The maximum document size is limited to 64 MB. So anything not image, audio or video will be transmitted as document message.
 
@@ -413,12 +393,7 @@ curl -X POST \
 | filename | Media file name                                             | N/A                 | No       |
 
 ## Send Audio Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 We can send Audio clips as attachment using below API. The maximum audio file size is limited to max 64 MB.
 
@@ -462,12 +437,7 @@ curl -X POST \
 | filename | Media file name                                                                                         | N/A       | No       |
 
 ## Send Video Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 We can send Video clips as attachment using below API. The maximum audio file size is limited to 64 MB.
 
@@ -511,12 +481,7 @@ curl -X POST \
 | filename | Media file name                                                                        | N/A       | No       |
 
 ## Send Notification With Interactive Suggestions
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 ```
 {endpoint}whatsapp/message/send
@@ -665,12 +630,7 @@ curl -X POST \
 | choices.type | if reply message type value should be `reply`, or list message type value first object should be `button` and second object should be `section` | N/A    | Yes      |
 
 ## Send Vcard / Contacts Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 We can send location using below API. The maximum audio file size is limited to 64 MB.
 
@@ -745,12 +705,7 @@ curl -X POST \
 | birthday | birthday details of the contact     | N/A    | No       |
 
 ## Send Location Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 We can send location using below API. The maximum audio file size is limited to 64 MB.
 

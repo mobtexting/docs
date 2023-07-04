@@ -56,12 +56,7 @@
 #### HTTP Methods
 
 It will support only `POST` requests.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 ## Sending Text Message
 
@@ -102,12 +97,7 @@ curl -X POST \
 | text    | Message Content you want to send            | Max 4096 Characters | Yes      |
 
 ## Sending Template Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 ```
 {endpoint}mip/message/send
@@ -156,12 +146,7 @@ curl -X POST \
 | ttl           | Time to live of the template message. If the receiver has not opened the template message before the time to live expires, the message will be deleted. Default 30 Days. Need to specify in Seconds | Can be more than 1 day i.e 86400 sec                                       | No       |
 
 ## Send Interactive Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 We can send Video clips as attachment using below API. The maximum audio file size is limited to 64 MB.
 
@@ -281,12 +266,7 @@ curl -X POST \
 | choices | this block contains actions for suggestions of the message | N/A    | Yes      |
 
 ## Send Card Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 We can send Carousel using below API. The maximum audio file size is limited to 64 MB.
 

@@ -11,12 +11,7 @@ Country code is mandatory to be included in the `to` paramenter for global messa
 Before you start sending SMS through this API, please test whether your content is matching a template which has been pre approved. Otherwise, the SMS will end up being rejected.
 
 ## Send SMS
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 

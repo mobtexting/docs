@@ -1,12 +1,7 @@
-## View Smart Link Visits
+# View Smart Link Visits
 
 Access the particular Link Visits
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 

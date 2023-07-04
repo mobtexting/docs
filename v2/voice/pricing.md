@@ -1,12 +1,7 @@
 # View Pricing List
 
 View all Country wise pricing list.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 

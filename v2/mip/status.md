@@ -1,4 +1,4 @@
-## MIP Status Info
+# MIP Status Info
 
 #### Description of Status:
 

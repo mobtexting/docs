@@ -1,4 +1,4 @@
-## Coupon module usage:
+# Coupon Module Usage:
 
 Variables:
 

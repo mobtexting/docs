@@ -1,39 +1,39 @@
-# DLT Registration with Ping Connect (Videocon) 
+# DLT Registration With Ping Connect (Videocon) 
 
 ## Registration with Ping Connect (Videocon)
 * Open the link [https://pingconnect.in/entity/register-with](https://pingconnect.in/entity/register-with).
 The below show page would appear.
 
-![alt text](/images/docimages/dlt/image1.png)
+![alt text](/images/docs/dlt/image1.png)
 * Please select as shown below:
 
-![alt text](/images/docimages/dlt/image2.png)
+![alt text](/images/docs/dlt/image2.png)
 
 * If you are an Indian/Overseas Company Select the relevant option and proceed as per below:
 
-![alt text](/images/docimages/dlt/image3.png)
+![alt text](/images/docs/dlt/image3.png)
 
 * If you are using this website to register for the first time then at this point, please select `New Entity`. In you have already registered using another website already, then select “Enroll Entity”.  
 
-![alt text](/images/docimages/dlt/image4.png)
+![alt text](/images/docs/dlt/image4.png)
 
 * Regardless of the option chosen, please fill in the details as shown and proceed.
 
-![alt text](/images/docimages/dlt/image5.png)
+![alt text](/images/docs/dlt/image5.png)
 
 * In case of new registration, in case prompted for an amount to pay, please enter 00 and proceed.
 
 * A pop up as shown below will still appear. Don’t worry about it. The process is free of cost. Please click okay and proceed.
 
-![alt text](/images/docimages/dlt/image6.png)
+![alt text](/images/docs/dlt/image6.png)
 
 * Once all the details are updated and the form is submitted, and OTP will be first sent to verify the mobile number you have registered with. Once this is complete, you would receive an acknowledgement as below:
  
-![alt text](/images/docimages/dlt/image7.png)
+![alt text](/images/docs/dlt/image7.png)
 
 * Below is a sample of the email received post completion of the registration process to the registered email ID:
 
-![alt text](/images/docimages/dlt/image8.png)
+![alt text](/images/docs/dlt/image8.png)
 
 * `Follow the link to verify the email.`
 Within 24 to 48hrs, the account will be activated.
@@ -47,18 +47,18 @@ All customers are required to register `senderIDs/Headers` with the operators fo
 
 2. Once logged in, click `Header` on left navigation bar to see the detailed view of all the Headers. Select New header to add a new one.
 
-![alt text](/images/docimages/dlt/image9.png)
+![alt text](/images/docs/dlt/image9.png)
 
 
 3. Click `Single` to create a New Single Header and select the other fields
  
 4. Click on `Header Type`  to choose the type of header from the list.
 
-![alt text](/images/docimages/dlt/image10.png)
+![alt text](/images/docs/dlt/image10.png)
 
 5. Select the Category that best fits your business for which the header will be used for.
 
-![alt text](/images/docimages/dlt/image11.png)
+![alt text](/images/docs/dlt/image11.png)
 
 6. Provide a name for the header. 
 
@@ -67,13 +67,13 @@ All customers are required to register `senderIDs/Headers` with the operators fo
 8. Select the relevant document for the applied header and request for OTP. Once the OTP is verified, click on Submit
 
 
-![alt text](/images/docimages/dlt/image12.png)
+![alt text](/images/docs/dlt/image12.png)
 
 9. On submission the header will show up as `Pending`. This will be reviewed by the Registrar Team and an update will be provided via email or call in case there are any documents missing or discrepancies for the header submitted.
  
 10. Once the header is approved, the status will change from `Pending` to `Approved`.
 
-![alt text](/images/docimages/dlt/image13.png)
+![alt text](/images/docs/dlt/image13.png)
 
 ## Videocon’s Consent Template Registration Process
 
@@ -84,7 +84,7 @@ a. Click on the `Consent Template` on the sidebar to view the details of Consent
 
 b. Click on the Add New Consent Template button to create a new Consent Template.
 
-![alt text](/images/docimages/dlt/image14.png)
+![alt text](/images/docs/dlt/image14.png)
 
 c. To create a New Consent Template, first type a relevant Consent Template Name as per the Entity business requirement.
 
@@ -96,7 +96,7 @@ f. Once the content is created. Click on the GET OTP link, a One Time Password (
 
 g. Press the Submit button to send the request to the Operator for approval.
 
-![alt text](/images/docimages/dlt/image15.png)
+![alt text](/images/docs/dlt/image15.png)
 
 
 ## Videocon's Content Template Registration Process 
@@ -107,7 +107,7 @@ a. In the Entity portal on the sidebar click on the Templates option to view the
 
 b. In the Template page click on Add New Template button to create new Templates.
 
-![alt text](/images/docimages/dlt/image16.png)
+![alt text](/images/docs/dlt/image16.png)
 
 c. Fill an appropriate Template name basis on the business requirement in the Template Name column
 
@@ -123,7 +123,7 @@ e. In the Content Type select any of the following options:
 * Service Explicit
 * Service Implicit
 
-![alt text](/images/docimages/dlt/image17.png)
+![alt text](/images/docs/dlt/image17.png)
 
 f. In the Consent Template ID column select the relevant Consent Template registered on DLT from the drop-down list. Consent Template ID is not mandatory for Transactional and Service Implicit commercial communications.
 
@@ -142,7 +142,7 @@ In the content creation section, there are two options available:
 
 Select any of the option based on the requirement of content creation.  
 
-![alt text](/images/docimages/dlt/image18.png)
+![alt text](/images/docs/dlt/image18.png)
 
 j. In the Copy/Paste Message option, copy any message and create the required content for the Template.
 
@@ -152,10 +152,10 @@ l. In the Create New Message Box type the required content and to add variables 
 
 m. Messages in languages other than English can be created, such template types will be treated as Unicode. Language can be selected from the drop-down list.
 
-![alt text](/images/docimages/dlt/image19.png)
+![alt text](/images/docs/dlt/image19.png)
 
 n. Press the Get OTP link to receive the One Time Password on your registered mobile and email id. Once received, type the same in the OTP column to authenticate the process.
 
 o. Press the Submit button to confirm and send the request for approval by the Operator.
 
-![alt text](/images/docimages/dlt/image20.png)
+![alt text](/images/docs/dlt/image20.png)

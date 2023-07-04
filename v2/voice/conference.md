@@ -1,10 +1,5 @@
 # List Conferences
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### HTTP Methods
 

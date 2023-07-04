@@ -1,10 +1,5 @@
 # PULL DELIVERY STATUS
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 

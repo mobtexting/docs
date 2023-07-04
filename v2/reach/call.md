@@ -1,10 +1,5 @@
 # CREATE OUTBOUND CALL
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 

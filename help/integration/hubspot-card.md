@@ -1,4 +1,4 @@
-## MOBtexting SMS with Hubspot Integration
+# MOBtexting SMS With Hubspot Integration
 
 Our platform allows you to seemingly integrate Hubspot crm.
 Follow the steps below for integration guide:
@@ -9,7 +9,7 @@ In order to integrate hubspot crm with our system a client app needs to be creat
 
 Visit this url: <https://app.hubspot.com/signup/developers> to create client.
 
-<!-- ![alt text](/images/docimages/integrations/hubspot1.png) -->
+<!-- ![alt text](/images/docs/integrations/hubspot1.png) -->
 
 Fill the following details:
 
@@ -18,11 +18,11 @@ App Name : AppName
 Authorized redirect URIs: {domain}/integration/oauth/hubspot
 
 
-<!-- ![alt text](/images/docimages/integrations/hubspot2.png) -->
+<!-- ![alt text](/images/docs/integrations/hubspot2.png) -->
 
 and click on save button.
 
-<!-- ![alt text](/images/docimages/integrations/hubspot3.png) -->
+<!-- ![alt text](/images/docs/integrations/hubspot3.png) -->
 
 You'll receive `App_id`, `client_id` and `client_secret`.
 
@@ -56,7 +56,7 @@ You'll receive `refresh_token`.
 
 Once you created app in developer account you can get `APP_Id` and `Developer_api_key`.
 
-<!-- ![alt text](/images/docimages/integrations/hubspot4.png) -->
+<!-- ![alt text](/images/docs/integrations/hubspot4.png) -->
 
 https://api.hubapi.com/crm/v3/extensions/cards/(app_id)hapikey=(developer_api_key)
 
@@ -103,12 +103,12 @@ This Primary Action will open iframe option with user `phone` number, `name` and
 Login with `mobtexting account` and click on `_Developers` option on navbar and select `_integrations'.
 On right side click `Create` button and choose `Hubspot Card`.
     
-<!-- ![alt text](/images/docimages/integrations/hubspot5.png) -->
+<!-- ![alt text](/images/docs/integrations/hubspot5.png) -->
 
 It will ask to choose your account for install. Once you installed can see `MOBtexting SMS` Card on your `HUBSPOT` account.
 
 
-<!-- ![alt text](/images/docimages/integrations/hubspot6.png) -->
+<!-- ![alt text](/images/docs/integrations/hubspot6.png) -->
 
 
 

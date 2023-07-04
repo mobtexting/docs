@@ -1,4 +1,4 @@
-## DISTRIBUTED LEDGER TECHNOLOGY
+# DISTRIBUTED LEDGER TECHNOLOGY
 
 ### Insights on New TRAI SMS Regulation Implementation
 

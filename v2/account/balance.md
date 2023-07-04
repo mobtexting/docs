@@ -1,10 +1,5 @@
 # Check Account Balance
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 

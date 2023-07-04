@@ -1,12 +1,7 @@
-## View Sender
+# View Sender
 
 View one Sender-ids created under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 

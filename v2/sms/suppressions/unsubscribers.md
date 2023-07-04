@@ -1,12 +1,7 @@
-## View Unsubscribers
+# View Unsubscribers
 
 View all created unsubscribers
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 
@@ -81,12 +76,7 @@ Kindly replace the token with your respective access_token and other params.
 ## Create Unsubscriber
 
 Create receiver using POST method.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 
@@ -138,12 +128,7 @@ curl -X POST\
 ## Edit Unsubscriber
 
 Edit receiver using put method.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### PUT
 
@@ -198,12 +183,7 @@ curl -X PUT \
 ## View Single Unsubscriber
 
 View one created receiver
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 
@@ -243,12 +223,7 @@ Kindly replace the token with your respective access_token .
 ## Import Unsubscriber
 
 Import receiver by uploading a file
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 
@@ -287,12 +262,7 @@ curl -X POST\
 ## Delete Unsubscriber
 
 Delete receiver using delete method
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### DELETE
 
@@ -325,12 +295,7 @@ curl -X DELETE \
 ## Cleanup Unsubscriber
 
 Delete all receiver at once
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 

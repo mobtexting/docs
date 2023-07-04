@@ -1,4 +1,4 @@
-## Freshdesk Plugin
+# Freshdesk Plugin
 
 MOBtexting integration for Freshdesk allows customers to get notified through SMS on ticket updates:
 

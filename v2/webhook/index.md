@@ -1,12 +1,7 @@
-## View Webhooks List
+# View Webhooks List
 
 View all Webhooks created under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 
@@ -88,12 +83,7 @@ Kindly replace the token with your respective access_token.
 ## Create Webhook
 
 Create a Webhook using post method under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### POST
 
@@ -151,12 +141,7 @@ Create a Webhook using post method under your account
 ## Edit Webhook
 
 Edit a Webhook using put method under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### PUT
 
@@ -210,12 +195,7 @@ curl -X PUT \
 ## Show Webhook
 
 To show a Webhook using get method under your account
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 #### GET
 

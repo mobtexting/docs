@@ -55,12 +55,7 @@
 #### HTTP Methods
 
 It will support only `POST` requests.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 ## Sending Text Message
 
@@ -144,12 +139,7 @@ curl -X POST \
 | url     | Publicly available Image/ Media URL                                                                                                      | Max 100 MB | Yes      |
 
 ## Send Interactive Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 We can send interactive messages like suggested replies and suggested actions using this api.
 
@@ -313,12 +303,7 @@ curl -X POST \
 | calender  | creates user's calender event upon click                   | N/A                                   | Yes      |
 
 ## Send Card Message
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 We can send RichRCard Message using below API.
 
@@ -441,12 +426,7 @@ curl -X POST \
 ## Send Carousel Message
 
 Carousels may contain a minimum of two and a maximum of ten rich cards.
-
-#### API Endpoint
-
-```
-{domain}/api/{version}/
-```
+#include "_include/endpoint.md"
 
 We can send Carousel using below API.
 
