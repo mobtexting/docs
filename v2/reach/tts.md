@@ -95,11 +95,11 @@ curl -X POST '{endpoint}outgoing/tts' \
         "break": {
             "identifier": "##",
             "time": 1
+        },
+        "voice": {
+            "language": "german",
+            "gender":"male"
         }
-    },
-    "voice": {
-        "language": "german",
-        "gender":"male"
     }
 }'
 ```
