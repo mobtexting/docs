@@ -117,56 +117,6 @@ curl -X POST\
 }
 ```
 
-## Edit Block Template
-
-Edit block template using put method.
-#include "_include/endpoint.md"
-
-#### PUT
-
-```
-{endpoint}sms/suppressions/templates/{id}
-```
-
-Replace the {id} with the actual id of the receiver that you would like to Edit.
-
-#### PARAMETERS
-
-| Name        | optional | Descriptions                             |
-| ----------- | -------- | ---------------------------------------- |
-| template_id | No       | Enter the receiver that you want to edit |
-| status      | Mixed    | 1 or 0                                   |
-
-#### Example Request
-
-```
-curl -X PUT \
-  '{endpoint}sms/suppressions/templates/2' \
-  -H 'Accept: application/json' \
-  -H 'Authorization: Bearer 7160f04c0587xxxxxxxxxxxxxxxx' \
-  -H 'Content-Type: application/json' \
-  -d '{
-    "template_id": "12xxxxx",
-    "status": "1"
-}'
-
-```
-
-#### Example Response
-
-```json
-{
-  "status": "OK",
-  "code": 200,
-  "message": "Block template updated successfully",
-  "data": {
-    "id": "2",
-    "template_id": "12xxxxx",
-    "status": 1
-  }
-}
-```
-
 ## View Block Templates
 
 View one created block template
