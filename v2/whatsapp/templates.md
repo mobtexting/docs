@@ -526,7 +526,7 @@ curl -X POST \
         "header": {
             "type": "video",
             "payload": {
-                "url": "https://www.buildquickbots.com/whatsapp/media/sample/video/sample01.mp4"
+                "url": "https://www.buildquickbots.com/media/sample/video/sample01.mp4"
             }
         },
         "body": {
@@ -723,7 +723,7 @@ curl -X POST \
     "payload": {
         "type": "text",
         "payload": {
-            "text": "This is a simple text message from whatsapp channel"
+            "text": "This is a simple text message"
         }
     }
 }'
@@ -813,7 +813,7 @@ curl -X POST \
     "payload": {
         "type": "image",
         "payload": {
-            "url": "https://www.buildquickbots.com/whatsapp/media/sample/jpg/sample01.jpg",
+            "url": "https://www.buildquickbots.com/media/sample/jpg/sample01.jpg",
             "filename": "filename",
             "caption": "caption",
             "language": "en"
