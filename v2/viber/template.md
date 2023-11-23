@@ -47,7 +47,8 @@ You can send template message using `POST` method content in body.
     },
     "meta": {
         "from": "700969ca-0cb2-11ec-a2cxxxx",
-        "webhook_id": "0798d163-7ca2-4mb6-8c16-c62866xxxxxxx"
+        "webhook_id": "0798d163-7ca2-4mb6-8c16-c62866xxxxxxx",
+        "tags": ["tag1", "tag2"]
     }
 }
 ```
@@ -91,7 +92,8 @@ You can send template message using `POST` method content in body.
         "phone" : "8123xxxxxxx"
       },
       "meta": {
-        "from": "700969ca-0cb2-11ec-a2cxxxx"
+        "from": "700969ca-0cb2-11ec-a2cxxxx",
+        "tags": ["tag1", "tag2"]
       }
     }'
 ```

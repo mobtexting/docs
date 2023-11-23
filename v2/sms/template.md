@@ -48,7 +48,8 @@ You can send template message using `POST` method content in body.
     "phone": "89XXXXXXXX"
   },
   "meta": {
-    "webhook_id": "0798d163-7ca2-4mb6-8c16-c62866xxxxxxx"
+    "webhook_id": "0798d163-7ca2-4mb6-8c16-c62866xxxxxxx",
+    "tags": ["tag1", "tag2"]
   }
 }
 ```
