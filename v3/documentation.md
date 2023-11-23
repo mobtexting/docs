@@ -34,6 +34,7 @@
   - [Create Template](/docs/v2/sms/templates/create)
   - [Edit Template](/docs/v2/sms/templates/edit)
   - [Delete Template](/docs/v2/sms/templates/delete)
+  - [Template Blocklist](/docs/{version}/sms/suppressions/templates)
   - [Pricing List](/docs/v2/sms/pricing)
   <!-- [Service Usage](/docs/v2/sms/usage) -->
 
