@@ -97,6 +97,10 @@
   - [Visits](/docs/{version}/link/visits)
   - [Webhook](/docs/{version}/link/webhook)
 
+- [Studio](#)
+
+  - [Introduction](/docs/{version}/studio)
+
 - [Developers](#)
 
   - [Webhooks](/docs/{version}/webhook)
