@@ -586,7 +586,7 @@ curl -X POST \
 | Name      | Description                           | Limits | Required |
 | --------- | ------------------------------------- | ------ | -------- |
 | longitude | Longitude of the location coordinates | N/A    | Yes      |
-| latitude  | Latitude of the location coordinates  | N/A    | No       |
+| latitude  | Latitude of the location coordinates  | N/A    | Yes      |
 | name      | Address name                          | N/A    | No       |
 | address   | Textual representation of location    | N/A    | No       |
 
