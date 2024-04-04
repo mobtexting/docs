@@ -30,7 +30,7 @@
   - [Show Sender](/docs/{version}/sms/senders/show)
   - [Edit Sender](/docs/{version}/sms/senders/edit)
   - [Delete Sender](/docs/{version}/sms/senders/delete)
-  - [Optin Optout Link](/docs/{version}/sms/optinout)
+  - [Optin/Optout Link](/docs/{version}/sms/optinout)
   - [View Templates](/docs/{version}/sms/templates)
   - [Create Template](/docs/{version}/sms/templates/create)
   - [Show Template](/docs/{version}/sms/templates/show)
@@ -39,6 +39,7 @@
   - [Unsubscribers](/docs/{version}/sms/suppressions/unsubscribers)
   - [Template Blocklist](/docs/{version}/sms/suppressions/templates)
   - [Pricing List](/docs/{version}/sms/pricing)
+  - [Products/Services](/docs/{version}/sms/products)
   <!-- [Service Usage](/docs/{version}/sms/usage) -->
 
 - [SMPP](#)

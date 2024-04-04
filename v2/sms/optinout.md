@@ -12,12 +12,11 @@ Optin/Optout link is generated with it.
 
 #### PARAMETERS
 
-| Name         | optional | Descriptions                                                                                 |
-| ------------ | -------- | -------------------------------------------------------------------------------------------- |
-| sender       | Yes      | Enter a valid sender                                                                         |
-| tags         | Yes      | Provide max. of 2 tags(array)                                                                                             |
-| service      | Yes      | The short code of the service name. ex: (MKT) [full list](/docs/{version}/#content-products)                                                                        |
-
+| Name    | optional | Descriptions                                                                            |
+| ------- | -------- | --------------------------------------------------------------------------------------- |
+| sender  | Yes      | Enter a valid sender                                                                    |
+| tags    | Yes      | Provide max. of 2 tags(array)                                                           |
+| service | Yes      | The short code of the service name. ex: (MKT) [full list](/docs/{version}/sms/products) |
 
 ### Example Request
 
@@ -53,12 +52,11 @@ curl -X POST \
 
 #### PARAMETERS
 
-| Name         | optional | Descriptions                                                                                 |
-| ------------ | -------- | -------------------------------------------------------------------------------------------- |
-| sender       | Yes      | Enter a valid sender                                                                         |
-| tags         | Yes      | Provide max. of 2 tags(array)                                                                                             |
-| service      | Yes      | The short code of the service name. ex: (MKT) [full list](/docs/{version}/#content-products)                                                                        |
-
+| Name    | optional | Descriptions                                                                            |
+| ------- | -------- | --------------------------------------------------------------------------------------- |
+| sender  | Yes      | Enter a valid sender                                                                    |
+| tags    | Yes      | Provide max. of 2 tags(array)                                                           |
+| service | Yes      | The short code of the service name. ex: (MKT) [full list](/docs/{version}/sms/products) |
 
 ### Example Request
 
