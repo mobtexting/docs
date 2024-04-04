@@ -25,6 +25,7 @@
 | variables  | `Array` of the variables which can be used in flow       |
 | record     | Record this conversation (default `0`). allowed: 0 or 1  |
 | duration   | Limit the call duration in minutes. default (none)       |
+| attempts   | No of redial attempts on unanswered calls. default 2. Max 2 |
 
 #### Example C2C Using to as Mobile Number
 

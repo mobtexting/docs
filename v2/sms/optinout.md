@@ -1,6 +1,6 @@
 # Generate Optin/Optout Link
 
-Optin/Optout link is generated with it.
+Any number can be opted in/out based on the selected Service, Sender and/or Tags by dynamic link creation that provides granularity on the optout/optin feature.
 
 ## Optout Link
 
@@ -27,7 +27,7 @@ curl -X POST \
   -H 'content-type: application/json' \
   -d '{
     "sender": "654321",
-    "tags" : ["tag1","tag2"],
+    "tag" : ["tag1","tag2"],
     "service": "T"
 }'
 ```
@@ -38,7 +38,7 @@ curl -X POST \
 {
     "status": "OK",
     "message": "Optout link generated Successfully.",
-    "data": "https://tx3.in/mo/[#optout#]?sender=654321&tags=tag1,tag2&service=T"
+    "data": "https://tx3.in/mo/[#optout#]?sender=654321&tag=tag1,tag2&service=T"
 }
 ```
 
@@ -67,7 +67,7 @@ curl -X POST \
   -H 'content-type: application/json' \
   -d '{
     "sender": "654321",
-    "tags" : ["tag1","tag2"],
+    "tag" : ["tag1","tag2"],
     "service": "T"
 }'
 ```
@@ -78,6 +78,6 @@ curl -X POST \
 {
     "status": "OK",
     "message": "Optin link generated Successfully.",
-    "data": "https://tx3.in/mi/[#optin#]?sender=654321&tags=tag1,tag2&service=T"
+    "data": "https://tx3.in/mi/[#optin#]?sender=654321&tag=tag1,tag2&service=T"
 }
 ```
