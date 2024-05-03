@@ -13,7 +13,7 @@
 	"header": [],
 	"body": {
 		"mode": "raw",
-		"raw": "{\n    \"sender\": \"SENDER\",\n    \"name\": \"temp12\",\n    \"body\": \"Welcome to mobtexting family\",\n    \"template_id\": \"\"\n}",
+		"raw": "{\n    \"sender\": \"SENDER\",\n    \"name\": \"temp12\",\n    \"body\": \"Welcome to mobtexting family\",\n    \"template_id\": \"342442343xxxx\"\n}",
 		"options": {
 			"raw": {
 				"language": "json"
