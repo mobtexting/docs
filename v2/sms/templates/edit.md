@@ -36,7 +36,7 @@ Replace the {id} with the actual id of the template that you would like to Edit.
         "id": "a09c5d2c-d9bf-4f22-99c5-4592d0fxxxxx",
         "sender_id": "845f6e29-0320-4aad-9f62-90baf44xxxxx",
         "template_id": "342442343xxxx",
-        "template_type": @if(config('service.unified')) "Global" @else "Transactional" @endif,
+        "template_type": "Transactional",
         "sender": "SENDER",
         "name": "temp12",
         "alias": "temp",
