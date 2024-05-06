@@ -169,7 +169,7 @@ Kindly replace the token with your respective access_token and other params.
 | choices.actions.website_button_text | No       | max 20 characters                                                                                   |
 | choices.actions.website_url         | No       | should be url                                                                                       |
 
-**_NOTE:_** Pass variables in `@{{}}` variables name should be different ex: `{{name}}`, `@{{email}}`
+**_NOTE:_** Pass variables in `@{{}}` variables name should be different ex: `{{name}}`, `@{{email}}` and should be `alphabetic` or `alphanumeric`
 
 ### With Button
 

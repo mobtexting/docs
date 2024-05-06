@@ -43,7 +43,7 @@ Create templates using post method under your account
       "id":"329d5b16-ab52-4da3-9ba4-a9d99a3xxxxx",
       "sender_id":"b6a266e1-0290-4921-b54a-f4ed158xxxxx",
       "template_id":"1234567",
-      "template_type": @if(config('service.unified')) "Global" @else "Transactional" @endif,
+      "template_type": "Transactional",
       "sender":"Sen123",
       "name":"temp",
       "alias":"temp",

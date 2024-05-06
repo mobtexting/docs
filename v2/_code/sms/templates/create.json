@@ -13,7 +13,7 @@
   "header": [],
   "body": {
     "mode": "raw",
-    "raw": "{\n    \"sender\": \"{{sender_name}}\",\n    \"name\": \"temp\",\n    \"body\": \"This is verification {{var1}} and {{var2}}\",\n    \"template_id\": \"1234567\",\n    \"type\": \"{{service}}\"\n}",
+    "raw": "{\n    \"sender\": \"{{sender_name}}\",\n    \"name\": \"temp\",\n    \"body\": \"This is verification {{var1}} and {{var2}}\",\n    \"template_id\": \"1234567\",\n    \"type\": \"T\"\n}",
     "options": {
       "raw": {
         "language": "json"
