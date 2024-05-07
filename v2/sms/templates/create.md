@@ -15,7 +15,7 @@ Create templates using post method under your account
 | ----------- | -------- | ---------------------------------------------------------------- |
 | sender      | No       | Enter the approved sender-id under your account                  |
 | name        | No       | Input the name of the template that you would like to refer with |
-| body        | No       | Input the body of the sms(template)                              |
+| body        | No       | Input the body of the sms template (It can include variables like @{{var1}} which should be `alphabetic` or `alphanumeric`)                          |
 | template_id | Mixed    | DLT Template id (required for india)                             |
 | type        | Mixed    | Type of the template like (P, T, SI, SE)(required for india)     |
 
@@ -36,27 +36,27 @@ Create templates using post method under your account
 
 ```json
 {
-    "status": "OK",
-    "code": 200,
-    "message": "Template Saved Successfully",
-    "data": {
-        "id": "b23769e6-019f-48f4-aae9-ec00a5xxxxxx",
-        "sender_id": "015c2f82-1352-4d19-9f8f-b8449xxxxxx",
-        "template_id": "110716152128335xxxx",
-        "template_type": "Transactional",
-        "sender": "SENDER",
-        "name": "hind-number",
-        "alias": "hind-number",
-        "body": "Your Verification code is:@{{1}} is code @{{2}}",
-        "content": null,
-        "body_length": 53,
-        "match_count": 0,
-        "percentage": 0,
-        "is_complete": 0,
-        "is_english": 1,
-        "status": 1,
-        "created_at": "2022-11-16T04:41:32.000000Z",
-        "updated_at": "2022-11-16T04:41:32.000000Z"
-    }
+   "status":"OK",
+   "code":200,
+   "message":"Template Saved Successfully",
+   "data":{
+      "id":"329d5b16-ab52-4da3-9ba4-a9d99a3xxxxx",
+      "sender_id":"b6a266e1-0290-4921-b54a-f4ed158xxxxx",
+      "template_id":"1234567",
+      "template_type": "Transactional",
+      "sender":"Sen123",
+      "name":"temp",
+      "alias":"temp",
+      "body":"This is verification @{{var1}} and @{{var2}}",
+      "content":null,
+      "body_length":42,
+      "match_count":0,
+      "percentage":0,
+      "is_complete":0,
+      "is_english":1,
+      "status":1,
+      "created_at":"2022-05-02T10:49:13.000000Z",
+      "updated_at":"2022-05-02T10:49:13.000000Z"
+   }
 }
 ```

@@ -16,7 +16,7 @@ Replace the {id} with the actual id of the template that you would like to Edit.
 | Name        | Optinal | Descriptions                                                     |
 | ----------- | ------- | ---------------------------------------------------------------- |
 | name        | Yes      | Input the name of the template that you would like to refer with |
-| body        | Yes      | Input the body of the sms(template)                              |
+| body        | Yes      | Input the body of the sms template (It can include variables like @{{var1}} which should be `alphabetic` or `alphanumeric`)                              |
 | template_id | Mixed   | DLT Template id (required for india)                             |
 | type        | Mixed   | Type of the template like (P, T, SI, SE)(required for india)     |
 | is_english  | Yes     | Input the is_english (0, 1)
@@ -31,25 +31,25 @@ Replace the {id} with the actual id of the template that you would like to Edit.
 {
     "status": "OK",
     "code": 200,
-    "message": "Template Update Successfully",
+    "message": "Template Updated Successfully",
     "data": {
-        "id": "b23769e6-019f-48f4-aae9-ec00a5xxxxxx",
-        "sender_id": "015c2f82-1352-4d19-9f8f-b8449xxxxxx",
-        "template_id": "110716152128335xxxx",
+        "id": "a09c5d2c-d9bf-4f22-99c5-4592d0fxxxxx",
+        "sender_id": "845f6e29-0320-4aad-9f62-90baf44xxxxx",
+        "template_id": "342442343xxxx",
         "template_type": "Transactional",
         "sender": "SENDER",
-        "name": "hind-number",
-        "alias": "hind-number",
-        "body": "Your Verification code is:@{{1}} is code @{{2}}",
+        "name": "temp12",
+        "alias": "temp",
+        "body": "Welcome to mobtexting family",
         "content": null,
-        "body_length": 53,
+        "body_length": 28,
         "match_count": 0,
         "percentage": 0,
         "is_complete": 0,
         "is_english": 1,
         "status": 1,
-        "created_at": "2022-11-16T04:41:32.000000Z",
-        "updated_at": "2022-11-16T04:56:11.000000Z"
+        "created_at": "2024-05-02T11:14:54.000000Z",
+        "updated_at": "2024-05-02T12:24:28.000000Z"
     }
 }
 ```

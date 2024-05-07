@@ -149,6 +149,8 @@ Kindly replace the template_id.
 | number          | agent number Ex:(91861xxxxxxxx)                                 | `string` or `integer` | Yes      |
 | is_conversation | value is (1 auto approve) or (0 admin will approve), default(0) | `integer`             | Yes      |
 
+**_NOTE:_** Pass variables in `@{{}}` variables name should be different ex: `{{name}}`, `@{{email}}` and should be `alphabetic` or `alphanumeric`
+
 ## Text Type
 
 #### PARAMETERS
