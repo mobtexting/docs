@@ -56,36 +56,74 @@ You will be limited the records 100 per page.
 
 ```json
 {
-    "status": 200,
+    "status": "OK",
+    "code": 200,
     "message": "OK",
-    "data": {
+    "data": [
+        {
+            "id": "6bb5da1a-b53e-4fbd-b0ae-6926cad4540b:1",
+            "mobile": "918074318216",
+            "status": "AWAITING-DLR",
+            "units": 1,
+            "service": "T",
+            "length": 10,
+            "charges": 1,
+            "custom": "",
+            "custom1": "",
+            "location": "",
+            "provider": "",
+            "submitted_at": "2024-06-24 09:51:03",
+            "delivered_at": "",
+            "sender": "MOBTRN"
+        },
+        {
+            "id": "6bb5da1a-b53e-4fbd-b0ae-6926cad4540b:2",
+            "mobile": "919492839930",
+            "status": "AWAITING-DLR",
+            "units": 1,
+            "service": "T",
+            "length": 10,
+            "charges": 1,
+            "custom": "",
+            "custom1": "",
+            "location": "",
+            "provider": "",
+            "submitted_at": "2024-06-24 09:51:03",
+            "delivered_at": "",
+            "sender": "MOBTRN"
+        }
+    ],
+    "links": {
+        "first": "{endpoint}/api/v2/sms/status?page=1",
+        "last": "{endpoint}/api/v2/sms/status?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
         "current_page": 1,
-        "data": [
-            {
-                "id": "0703cf54-eef3-401c-8e7b-c1ea5b27b799:1",
-                "mobile": "919538372357",
-                "status": "AWAITING-DLR",
-                "units": "1",
-                "length": "14",
-                "charges": 1,
-                "custom": "",
-                "location": "",
-                "provider": "",
-                "submitted_at": "2018-10-26 12:35:00",
-                "delivered_at": ""
-            },
-            ---
-        ],
         "from": 1,
-        "last_page": 100,
-        "first_page_url": "",
-        "last_page_url": "",
-        "next_page_url": "",
-        "path": "",
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "{endpoint}/api/v2/sms/status?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "{endpoint}/api/v2/sms/status",
         "per_page": 100,
-        "prev_page_url": null,
-        "to": 100,
-        "total": 10000
+        "to": 2,
+        "total": 2
     }
 }
 ```
