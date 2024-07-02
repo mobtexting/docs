@@ -62,7 +62,7 @@ You will be limited the records 100 per page.
     "data": [
         {
             "id": "6bb5da1a-b53e-4fbd-b0ae-6926cad4540b:1",
-            "mobile": "918074318216",
+            "mobile": "9190199xxxxx",
             "status": "AWAITING-DLR",
             "units": 1,
             "service": "T",
@@ -74,11 +74,11 @@ You will be limited the records 100 per page.
             "provider": "",
             "submitted_at": "2024-06-24 09:51:03",
             "delivered_at": "",
-            "sender": "MOBTRN"
+            "sender": "SENDER"
         },
         {
             "id": "6bb5da1a-b53e-4fbd-b0ae-6926cad4540b:2",
-            "mobile": "919492839930",
+            "mobile": "9190198xxxxx",
             "status": "AWAITING-DLR",
             "units": 1,
             "service": "T",
@@ -90,7 +90,7 @@ You will be limited the records 100 per page.
             "provider": "",
             "submitted_at": "2024-06-24 09:51:03",
             "delivered_at": "",
-            "sender": "MOBTRN"
+            "sender": "SENDER"
         }
     ],
     "links": {
