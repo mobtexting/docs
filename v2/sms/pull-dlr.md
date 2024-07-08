@@ -38,13 +38,16 @@ you can pass any of the above params to get the dlr response.
       "mobile": "9189212693xx",
       "status": "DELIVRD",
       "units": 1,
+      "service": "T",
       "length": 7,
       "charges": 1,
       "custom": "",
+      "custom1": "",
       "location": "",
       "provider": "",
       "submitted_at": "2018-07-06 09:57:42",
-      "delivered_at": "2018-07-06 21:57:42"
+      "delivered_at": "2018-07-06 21:57:42",
+      "sender": "SENDER"
     }
   ]
 }
