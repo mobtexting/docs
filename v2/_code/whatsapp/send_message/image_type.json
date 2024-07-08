@@ -23,7 +23,7 @@
 	],
 	"body": {
 		"mode": "raw",
-		"raw": "{\n    \"channels\": [\n        {\n            \"name\": \"whatsapp\",\n            \"from\": \"{{from}}\"\n        }\n    ],\n    \"recipient\": {\n        \"to\": [\n            \"{{receiver}}\"\n        ]\n    },\n    \"message\": {\n        \"type\": \"image\",\n        \"payload\": {\n            \"url\": \"https://picsum.photos/id/237/200/300\",\n            \"caption\": \"some caption for document\",\n            \"filename\": \"Sample Image file\"\n        }\n    }\n}"
+		"raw": "{\n    \"channels\": [\n        {\n            \"name\": \"whatsapp\",\n            \"from\": \"{{from}}\"\n        }\n    ],\n    \"recipient\": {\n        \"to\": [\n            \"{{receiver}}\"\n        ]\n    },\n    \"message\": {\n        \"type\": \"image\",\n        \"payload\": {\n            \"url\": \"https://picsum.photos/id/237/200/300\",\n            \"thumbnail\": \"https://picsum.photos/id/237/200/300\",\n            \"caption\": \"some caption for document\",\n            \"filename\": \"Sample Image file\"\n        }\n    }\n}"
 	},
 	"url": {
 		"raw": "{{endpoint}}api/v2/whatsapp/message/send",
