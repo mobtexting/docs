@@ -29,7 +29,8 @@ you can pass any of the above params to get the dlr response.
 
 ```json
 {
-  "status": 200,
+  "status": "OK",
+  "code" : 200,
   "message": "OK",
   "data": [
     {
