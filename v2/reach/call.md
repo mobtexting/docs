@@ -59,18 +59,21 @@
 
 ```json
 {
-  "status": 200,
-  "message": "1 numbers accepted for delivery.",
-  "data": [
-    {
-      "id": "70fa87e0-9df9-4327-bc80-a561c48703d8:1",
-      "mobile": "918919525224",
-      "charges": "0.5000",
-      "customid": "",
-      "customid1": "",
-      "iso_code": null,
-      "submitted_at": "2019-08-16 15:09:51"
-    }
-  ]
+    "status": "OK",
+    "message": "Calls queued successfully",
+    "data": [
+        {
+            "id": "3b69aca9-3b55-4e2d-bfe0-02b910dbe156",
+            "channel": "outgoing",
+            "caller_id": "91891952xxxx",
+            "mobile": "91761936xxxx",
+            "flow_id": "351",
+            "credits": 1,
+            "created_at": "2024-07-10T06:09:43.054164Z",
+            "foreign_id": null,
+            "options": null,
+            "status": "queued"
+        }
+    ]
 }
 ```
