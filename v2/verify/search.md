@@ -40,7 +40,7 @@ To check the status of past or current verification requests:
       "channel": "sms",
       "event_id": "00a18bf7-dc06-4279-9ce6-068e3482eb51:1",
       "created_at": "2019-01-31 14:41:49",
-      "status": null
+      "status": "failed"
     }
   ]
 }

@@ -30,7 +30,7 @@
       "id": "a418d672-9781-4d97-b517-a56f7d95ad8a",
       "channel": "rcs",
       "from": "700969ca-0cb2-11ec-a2cxxxx",
-      "to": "9190199xxxxx",
+      "recipient": "9190199xxxxx",
       "credits": 1,
       "created_at": "2021-06-18T14:48:06.886358Z",
       "status": "queued",

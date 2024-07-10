@@ -34,8 +34,8 @@ If you wish to have your callbacks signed and have made the proper configuration
     "delivered_at": "2021-06-18T14:48:06.886358Z",
     "read_at": "2021-06-18T14:48:06.886358Z",
     "processed_at": "2021-06-18T14:48:06.886358Z",
-    "timestamp": "2021-06-18T14:48:06.886358Z",
-    "foreign_id": "your-business-identifier"
+    "foreign_id": "your-business-identifier",
+    "timestamp": "2021-06-18T14:48:06.886358Z"
   }
 }
 ```
@@ -78,7 +78,9 @@ If you wish to have your callbacks signed and have made the proper configuration
       "type": "text",
       "payload": {
         "text": "This is a simple text message from whatsapp channel"
-      }
+      },
+      "id": "b215da80-04bf-46f8-9b21-674c359b94b3",
+      "timestamp": "2024-07-09T10:03:37.338022Z"
     }
   }
 }
@@ -124,7 +126,9 @@ If you wish to have your callbacks signed and have made the proper configuration
         "url": "https://domin-name.com/your_image_path.png",
         "caption": "some caption for image",
         "filename": ""
-      }
+      },
+      "id": "b215da80-04bf-46f8-9b21-674c359b94b3",
+      "timestamp": "2024-07-09T10:03:37.338022Z"
     }
   }
 }

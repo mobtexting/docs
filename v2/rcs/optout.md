@@ -34,14 +34,14 @@ On triggering the above API the specified numbers will be added to your optout l
 
 ```json
 {
-  'status' => OK,
-  'code' => 200,
-  'message' => 'Number added to optout list',
-  'data': {
-        'receiver': '918736******',
-        'iso': 'IN',
-        'created_at': '2022-10-26T06:33:40.000000Z',
-        'id': 71
+  "status" : OK,
+  "code" : 200,
+  "message" : "Number added to optout list",
+  "data": {
+        "receiver": "918736******",
+        "iso": "IN",
+        "created_at": "2022-10-26T06:33:40.000000Z",
+        "id": 71
     },
 }
 ```

@@ -28,46 +28,69 @@ This Voice API supports the following:
 #### Example Response
 
 ```json
+
 {
-  "status": "OK",
-  "data": {
-    "current_page": 1,
+    "status": "OK",
+    "code": 200,
+    "message": "OK",
     "data": [
-      {
-        "id": "c839b4c4-8c0d-11e9-bb88-6c2b59c79f5a",
-        "call_from": "917989532456",
-        "call_to": "918068287601",
-        "service": "IN",
-        "bridge": "918068287601",
-        "status": "RECEIVED",
-        "duration": "00:00:12",
-        "billing": "00:00:12",
-        "pulsing": "30",
-        "charges": "0.0150",
-        "start_at": "2019-06-11 05:57:24",
-        "end_at": "2019-06-11 05:57:36",
-        "hangup_by": "caller",
-        "dtmf": null,
-        "location": "IN",
-        "region": "AP",
-        "provider": "RJ",
-        "notes": "Hi laxman final fix",
-        "audio": null,
-        "name": "Laxman ka"
-      }
+        {
+          "id": "c839b4c4-8c0d-11e9-bb88-6c2b59c79f5a",
+          "call_from": "91798953xxxx",
+          "call_to": "91806828xxxx",
+          "service": "IN",
+          "bridge": "91806828xxxx",
+          "status": "RECEIVED",
+          "duration": "00:00:12",
+          "billing": "00:00:12",
+          "pulsing": "30",
+          "charges": "0.0150",
+          "start_at": "2019-06-11 05:57:24",
+          "end_at": "2019-06-11 05:57:36",
+          "hangup_by": "caller",
+          "dtmf": null,
+          "location": "IN",
+          "region": "AP",
+          "provider": "RJ",
+          "notes": "Hi laxman final fix",
+          "audio": null,
+          "name": "Laxman ka"
+        }
     ],
-    "first_page_url": "{endpoint}voice/calls?page=1",
-    "from": 1,
-    "last_page": 1,
-    "last_page_url": "{endpoint}voice/calls?page=1",
-    "next_page_url": null,
-    "path": "{endpoint}voice/calls",
-    "per_page": 15,
-    "prev_page_url": null,
-    "to": 1,
-    "total": 1
-  }
+    "links": {
+        "first": "{{endpoint}}/api/v2/voice/calls?page=1",
+        "last": "{{endpoint}}/api/v2/voice/calls?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "{{endpoint}}/api/v2/voice/calls?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "{{endpoint}}/api/v2/voice/calls?page=1",
+        "per_page": 15,
+        "to": 2,
+        "total": 2
+    }
 }
+
 ```
 
 # Recordings Report
@@ -99,12 +122,13 @@ This Voice API supports the following:
 #### Example Response
 
 ```json
-{
-  "status": "OK",
-  "data": {
-    "current_page": 1,
+
+  {
+    "status": "OK",
+    "code": 200,
+    "message": "OK",
     "data": [
-      {
+        {
         "id": "c136768e-8c0e-11e9-b795-6c2b59c79f5a",
         "call_from": "918553001122",
         "call_to": "918068287601",
@@ -123,16 +147,38 @@ This Voice API supports the following:
         "created_at": "2019-06-11 05:59:07"
       }
     ],
-    "first_page_url": "{endpoint}voice/recordings?page=1",
-    "from": 1,
-    "last_page": 1,
-    "last_page_url": "{endpoint}voice/recordings?page=1",
-    "next_page_url": null,
-    "path": "{endpoint}voice/recordings",
-    "per_page": 15,
-    "prev_page_url": null,
-    "to": 2,
-    "total": 2
-  }
+    "links": {
+        "first": "{{endpoint}}/api/v2/voice/calls?page=1",
+        "last": "{{endpoint}}/api/v2/voice/calls?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "{{endpoint}}/api/v2/voice/calls?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "{{endpoint}}/api/v2/voice/calls?page=1",
+        "per_page": 15,
+        "to": 2,
+        "total": 2
+    }
 }
+
 ```

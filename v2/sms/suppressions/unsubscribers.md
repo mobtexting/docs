@@ -254,11 +254,11 @@ curl -X POST\
 
 #### PARAMETERS
 
-```
+
 | Name     | Description                                                  | Limits | Required |
 | -------- | ------------------------------------------------------------ | ------ | -------- |
 | file     | Receiver number file. (Supported filetype: txt,csv,xls,xlsx) | 100 MB | Yes      |
-```
+
 
 #### EXAMPLE RESPONSE
 

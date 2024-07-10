@@ -75,8 +75,9 @@ curl -X POST '{endpoint}voice/c2c' \
 
 ```json
 {
-  "status": 200,
-  "message": "Call initiated successfully"
+    "callId": "26074c32-b316-4ffa-99d7-9f6a99da56d6",
+    "message": "call initiated successfully",
+    "status": 200
 }
 ```
 

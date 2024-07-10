@@ -26,24 +26,23 @@ It will support `GET` request.
 #### Example Response
 
 ```json
+
 {
-  "status": 200,
-  "message": "OK",
-  "data": [
-    {
-      "id": "047d8cfc-77d1-4f6c-bfb5-e81f1a1343a7:1",
-      "mobile": "918919525224",
-      "caller_id": "918068287602",
-      "duration": "00:00:19",
-      "pulsing": "30",
-      "status": "ANSWER",
-      "charges": "0.1500",
-      "dtmf": null,
-      "location": "IN",
-      "provider": "RJ",
-      "start_at": "2019-07-16 18:13:44",
-      "end_at": "2019-07-16 18:14:03"
-    }
-  ]
+    "status": 200,
+    "message": "OK",
+    "data": [
+        {
+            "id": "8456bf26-1b6e-4ac1-adb9-2768258f71d0",
+            "channel": "outgoing",
+            "from": "3589100xxxx",
+            "to": "91761936xxxx",
+            "created_at": "2024-07-10 08:27:14",
+            "foreign_id": "",
+            "status": "ANSWER",
+            "start_at": "2024-07-10 08:27:26",
+            "end_at": "2024-07-10 08:27:29",
+            "dtmf": ""
+        }
+    ]
 }
 ```

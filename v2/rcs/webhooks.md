@@ -125,7 +125,9 @@ If you wish to have your callbacks signed and have made the proper configuration
         "caption": "some caption for image",
         "filename": ""
       }
-    }
+    },
+    "id": "94e6ce87-1429-4e98-9715-2ec461401fd2",
+    "timestamp": "2024-07-04T05:50:08.299202Z"
   }
 }
 ```
